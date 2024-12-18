@@ -74,6 +74,15 @@ a.logo img {
   height: auto; /* Maintain aspect ratio */
 }
 
+#gtco-main-nav {
+  position: sticky; /* Ensure it remains visible when scrolling */
+  top: 0; /* Stick it to the top */
+  z-index: 999; /* Ensure it appears above other elements */
+  background-color: #fff; /* Add a background color for better visibility */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  padding: 10px 0; /* Adjust padding for a compact appearance */
+}
+
 #gtco-main-nav .navbar-brand {
   font-weight: bold;
   font-size: 36px;
